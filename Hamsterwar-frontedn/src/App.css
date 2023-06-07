@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  /*background-color: #444c38;*/
+  /* min-height: 20vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+header {
+  background-color: #444c38;
+  color: #fcd448;
+  padding: 0.5em;
+  flex: 0 0 auto;
+}
+
+nav a {
+  padding: 0.2em 1.5em;
+  color: #fcd448;
+  transition: background-color 0, 3s linear;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #ffcd1b;
+}
+
+main {
+  background-color: #282c22;
+  color: white;
+  flex: 1 1 auto;
+}
+
+.App-main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
